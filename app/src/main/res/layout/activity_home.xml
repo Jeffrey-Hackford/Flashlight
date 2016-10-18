@@ -27,6 +27,8 @@
         android:layout_below="@+id/userInput"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="97dp"
+        android:textOff="@string/turnOn"
+        android:textOn="@string/turnOff"
         android:id="@+id/toggleButton" />
 
 </RelativeLayout>
