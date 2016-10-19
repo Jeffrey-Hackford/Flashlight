@@ -26,14 +26,14 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean checked) {
                 if (checked) {
-                    mToggleButton.setTextOn("Turn off");
+//                    mToggleButton.setTextOn("Turn off");
                     camera = Camera.open();
                     Camera.Parameters parameters = camera.getParameters();
                     parameters.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
                     camera.setParameters(parameters);
                     camera.startPreview();
                 } else {
-                    mToggleButton.setTextOff("Turn On");
+//                    mToggleButton.setTextOff("Turn On");
                     Camera.Parameters parameters = camera.getParameters();
                     parameters.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
                     camera.setParameters(parameters);

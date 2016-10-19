@@ -2,4 +2,5 @@
     <string name="app_name">Flashlight</string>
     <string name="turnOn">Turn on</string>
     <string name="turnOff">Turn off</string>
+    <string name="ToggleButton">ToggleButton</string>
 </resources>
